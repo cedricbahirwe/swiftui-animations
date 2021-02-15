@@ -16,14 +16,15 @@ struct Stars: View {
         Star(corners: corners, smoothness: smoothness)
             .fill(Color.red)
             .frame(width: 300, height: 300)
-//                .background(Color.green)
             .rotationEffect(.degrees(Double(corners*80)))
             .onReceive(Timer.publish(every: 0.2, on: .main, in: .common).autoconnect(), perform: { _ in
                 withAnimation {
                     corners += 1
                     smoothness += 0.02
                 }
-            })    }
+            })
+        
+    }
 }
 
 struct Stars_Previews: PreviewProvider {
