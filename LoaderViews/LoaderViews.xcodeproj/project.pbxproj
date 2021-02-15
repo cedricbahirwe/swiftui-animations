@@ -14,6 +14,7 @@
 		821F04B525DB0F5B0013BC88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821F04B425DB0F5B0013BC88 /* Preview Assets.xcassets */; };
 		821F04B825DB0F5B0013BC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821F04B625DB0F5B0013BC88 /* LaunchScreen.storyboard */; };
 		821F04C125DB0F8C0013BC88 /* Loaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F04C025DB0F8C0013BC88 /* Loaders.swift */; };
+		821F04C625DB15420013BC88 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F04C525DB15420013BC88 /* Stars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		821F04B725DB0F5B0013BC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		821F04B925DB0F5B0013BC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		821F04C025DB0F8C0013BC88 /* Loaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loaders.swift; sourceTree = "<group>"; };
+		821F04C525DB15420013BC88 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				821F04AD25DB0F590013BC88 /* SceneDelegate.swift */,
 				821F04AF25DB0F590013BC88 /* ContentView.swift */,
 				821F04C025DB0F8C0013BC88 /* Loaders.swift */,
+				821F04C525DB15420013BC88 /* Stars.swift */,
 				821F04B125DB0F5B0013BC88 /* Assets.xcassets */,
 				821F04B625DB0F5B0013BC88 /* LaunchScreen.storyboard */,
 				821F04B925DB0F5B0013BC88 /* Info.plist */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821F04AC25DB0F590013BC88 /* AppDelegate.swift in Sources */,
+				821F04C625DB15420013BC88 /* Stars.swift in Sources */,
 				821F04AE25DB0F590013BC88 /* SceneDelegate.swift in Sources */,
 				821F04C125DB0F8C0013BC88 /* Loaders.swift in Sources */,
 				821F04B025DB0F590013BC88 /* ContentView.swift in Sources */,
