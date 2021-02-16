@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CrazySpiro: View {
+struct CrazySpirals: View {
     @State var rotations = 1
     @State private var colors: [Color] = [.red, .green, .black, .blue]
     var body: some View {
@@ -19,7 +19,7 @@ struct CrazySpiro: View {
                 .frame(width: 200, height: 200)
                 .onReceive(Timer.publish(every: 0.3, on: .main, in: .common).autoconnect(), perform: { _ in
                         rotations += 1
-                })            
+                })
         }
     }
 }
@@ -42,9 +42,9 @@ struct SpiroSquare: Shape {
 
 
 
-struct CrazySpiro_Previews: PreviewProvider {
+struct CrazySpirals_Previews: PreviewProvider {
     static var previews: some View {
-        CrazySpiro()
+        CrazySpirals()
             .previewLayout(.fixed(width: 1000, height: 1000))
     }
 }
